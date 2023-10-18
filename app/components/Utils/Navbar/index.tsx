@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import InputSearch from './InputSearch';
 
 const Navbar = () => {
   return (
@@ -7,7 +8,7 @@ const Navbar = () => {
         <Link href="/">
           <h3 className="text-white font-bold text-2xl">Gudang Anime</h3>
         </Link>
-        <input type="text" placeholder=" Search anime.." className="border-r-2" />
+        <InputSearch />
       </div>
     </header>
   );
